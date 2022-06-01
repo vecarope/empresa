@@ -1,0 +1,16 @@
+{% extends 'app/base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+
+{% bootstrap_css%}
+{% block  contenido %}
+<form method="post">
+    {% csrf_token %}
+    <h1>Solicitud de servicios</h1>
+    {% bootstrap_form form%}
+    {% buttons %}
+    <button type='submit'> ENVIAR </button>
+    {% endbuttons %}
+    </form>
+    {{ mensaje}}
+{% endblock %} 
