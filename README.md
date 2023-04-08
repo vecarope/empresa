@@ -1,1 +1,1 @@
-# pagina empresa telecomunicaciones django
+# Web empresa telecomunicaciones con django
